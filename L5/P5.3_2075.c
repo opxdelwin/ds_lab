@@ -15,7 +15,7 @@ void print(NODE *head)
     NODE *temp = head;
     do
     {
-        printf("--> %d", temp->value);
+        printf(" <--> %d", temp->value);
         temp = temp->next;
     } while (temp != head);
 }
