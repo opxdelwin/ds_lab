@@ -9,7 +9,7 @@ struct Node
 };
 
 typedef struct Node NODE;
-void prin(NODE *head)
+void print(NODE *head)
 {
 
     NODE *temp = head;
@@ -58,6 +58,6 @@ int main()
 
     NODE *head = NULL;
     head = createList(head, len);
-    prin(head);
+    print(head);
     return 0;
 }
